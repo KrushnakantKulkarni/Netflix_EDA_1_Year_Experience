@@ -1,69 +1,64 @@
-🪔 Diwali Sales EDA 📊 | 1-Year Experience Project
-Welcome to my Exploratory Data Analysis (EDA) project on the Diwali Sales Dataset — a deep-dive into how Indian consumers behave during the festive season 🏵️.
+🧹 Data Cleaning & Preprocessing
 
-As a Data Analyst with 1 year of experience, this project showcases my end-to-end ability to:
+📈 Insightful Visualizations
 
-Clean messy data 🧹
-Extract business insights 🧠
-Visualize trends with clarity 📈
-Present actionable findings 💡
-## 📁 Dataset Overview
+🧠 Business Insights Generation
 
-| Feature        | Description                                  |
-|----------------|----------------------------------------------|
-| 📂 **Name**    | Diwali Sales Data                            |
-| 📄 **Format**  | `.csv`                                       |
-| 🧬 **Encoding**| `unicode_escape`                             |
-| 🌐 **Source**  | [Kaggle / Public Retail Dataset]             |
+📁 Dataset Overview
+Feature	Description
+📂 Name	Netflix Dataset
+📄 Format	.csv
+📍 Columns	Show ID, Type, Title, Country, Genre, etc.
+🕒 Time Period	Historical Netflix titles
+🌐 Source	Kaggle / Public Dataset
 
----
 🎯 Project Objective
-To unlock business insights using sales data collected during the Diwali festival season.
-This project focuses on:
+To explore and analyze the Netflix dataset to uncover insights such as:
 
-👥 Understanding customer demographics
-🗺️ Identifying top-performing regions
-🛍️ Analyzing popular products & categories
-💸 Observing purchase behavior trends
-🧽 Data cleaning and export for future use
+✅ Trends in content release over the years
+
+🌍 Country-wise content availability
+
+🎭 Distribution of genres and types (Movies vs TV Shows)
+
+🧑‍🤝‍🧑 Actor and Director appearances
+
+⏱️ Duration and Ratings of titles
+
 🧠 My Role as a Data Analyst
-In this project, I applied the core skills expected from a 1-year experienced Data Analyst:
+In this project, I applied the following core skills:
 
-✅ Data Wrangling
-✅ Exploratory Analysis
-✅ Visual Storytelling
-✅ Insight Extraction
-✅ Business Context Understanding
+🧹 Data Cleaning (nulls, duplicates, formatting)
+
+🧮 Descriptive Statistics
+
+📊 Data Visualization (Bar plots, Countplots, Heatmaps)
+
+🧠 Insight Extraction
+
+🗂️ Data Export and Reporting
 
 📚 Table of Contents
 📦 Data Loading
-🧹 Data Cleaning
-📊 Descriptive Statistics
-📈 Outlier & Skewness Analysis
-👥 Customer Demographics
-🗺️ State-wise Insights
-💼 Occupation Trends
-🛍️ Product Category Analysis
-🔁 Correlation Heatmap
-📤 Data Export
-🧠 Key Insights
-| Section                          | Description                                                                   |
-|--------------------------------  |-----------------------------------------------------------------------------|
-| 📦 Data Loading                  | Loaded CSV with correct encoding and previewed basic info                   |
-| 🧹 Data Cleaning                 | Dropped missing values, checked datatypes, removed irrelevant fields        |
-| 📊 Descriptive Statistics        | Summary using `describe()`, countplots, and histograms                      |
-| 📈 Outlier & Skewness            | Detected outliers with IQR, corrected skewness using log transformation     |
-| 👥 Customer Demographics         | Gender and age group analysis using visual tools                            |
-| 🗺️ State-wise Insights           | Top 10 states contributing to revenue and frequency                         |
-| 💼 Occupation Trends             | Visualized top income-generating professions                                |
-| 🛍️ Product Category Analysis     | Identified high-performing categories and products                          |
-| 🔁 Correlation Analysis          | Used heatmap & pairplot to analyze relationships between numeric fields     |
-| 📤 Data Export                   | Final cleaned dataset saved for future ML/modeling                          |
+
+🧹 Data Cleaning & Preprocessing
+
+🧾 Overview & Descriptive Statistics
+
+🗺️ Country-wise Analysis
+
+🎬 Content Type & Genre Analysis
+
+📅 Year-wise Trends
+
+🧑‍🤝‍🧑 Cast and Director Analysis
+
+📊 Visualizations
+
+💡 Key Insights
 
 📊 Visualizations Used
-📊 Bar Plots (Vertical & Horizontal)
-
-📉 Histograms & Boxplots
+📊 Bar Charts
 
 🧩 Countplots (Seaborn)
 
@@ -71,48 +66,25 @@ In this project, I applied the core skills expected from a 1-year experienced Da
 
 🌡️ Heatmaps
 
-🔄 Pairplots
+📈 Line Plots
 
-🔁 Log Transform Graphs (to correct skewness)
-📤 Output Files
-Output Type	File Name
-🧽 Cleaned Dataset	Cleaned_Diwali_Sales.csv
-📓 Jupyter Notebook	Diwali_Sales_EDA_Kaggle.ipynb
 🧠 Key Insights
-✨ These were some of the business takeaways from the dataset:
+✨ Some of the major findings:
 
-🍴 Food category had the highest overall sales.
+📈 Netflix added the most content in 2019–2020.
 
-👩‍🦰 Female buyers were more active during the Diwali season.
+🎬 Movies dominate the platform compared to TV Shows.
 
-📍 Uttar Pradesh led in total purchases across India.
+🌍 United States has the highest number of shows, followed by India and the UK.
 
-🧾 Right-skewed purchase amount distribution — addressed with transformation.
+👩‍🎤 Certain actors/directors appear frequently across Netflix titles.
 
-🔎 Weak correlation found between Amount and other numeric features.
-🛠️ Tools & Libraries
+🕒 Content duration and age rating patterns were clearly visible.
+
+🛠️ Tools & Libraries Used
 Tool	Purpose
 🐍 Python	Programming Language
 📊 Pandas	Data Manipulation
-📉 NumPy	Numerical Computation
-📈 Matplotlib	Data Visualization
-🌈 Seaborn	Statistical Visualization
-🚀 How to Run
-
-# Clone the repo
-git clone https://github.com/yourusername/diwali-sales-eda.git
-
-# Launch Jupyter Notebook
-jupyter notebook Diwali_Sales_EDA_Kaggle.ipynb
-Run all cells and explore the visuals interactively!
-🙋‍♂️ About Me Krushnakant Kulkarni— Aspiring Data Analyst with 1 Year Experience
-
-🧑‍💻 Exploring data to solve real-world problems
-
-🧠 Passionate about storytelling through numbers
-
-🌱 Always learning new tools and techniques
-
-⭐️ If You Found This Helpful... Don't forget to Star ⭐ the Repo and Share 💬 with your peers!
-
-Happy Analyzing! 🎉
+📉 NumPy	Numerical Operations
+📈 Matplotlib	Basic Visualizations
+🌈 Seaborn	Statistical Plots
