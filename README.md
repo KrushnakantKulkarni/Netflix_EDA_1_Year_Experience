@@ -1,3 +1,10 @@
+🍿 Netflix Data Analysis | 1-Year Experience Project
+Welcome to my Data Analysis project on Netflix — an exploratory look into the world of streaming content, audience preferences, and trends on the Netflix platform.
+
+This project highlights my skills as a Data Analyst with 1 year of experience, showcasing:
+
+📊 Exploratory Data Analysis (EDA)
+
 🧹 Data Cleaning & Preprocessing
 
 📈 Insightful Visualizations
